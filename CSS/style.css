@@ -97,15 +97,27 @@ footer{
 }
 
 .blue-cube{
-    background-color: skyblue;
-    height: 600px;
     width: 66.6%;
-    border: 1px dashed black;
+    height: 398px;
+}
+
+.primo{
+    background-image: url(../img/item1.svg);
+    background-size: cover
+}
+
+.secondo{
+    background-image: url(../img/item2.svg);
+    background-size: cover;
+}
+
+.terzo{
+    background-image: url(../img/item3.svg);
+    background-size: cover;
 }
 
 .pink-cube{
     width: 33.3%;
-    border: 1px dashed black;
 }
 
 .purple-cube{
@@ -124,7 +136,7 @@ footer{
 }
 
 .grigio{
-    background: lightgray;
+    background: #F6F6F6
 }
 
 .darkgray{
@@ -195,4 +207,19 @@ h1{
     font-weight: normal;
     line-height: 1.8;
     margin-bottom: 1.5rem;
+}
+
+h2{
+    padding-top: 30px;
+    font-family: "Roboto";
+    color: #36393F;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+h4{
+    font-family: "Roboto";
+    color: #36393F;
+    line-height: 1.8;
+
 }
