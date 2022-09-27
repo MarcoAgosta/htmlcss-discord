@@ -8,7 +8,7 @@ footer{
 }
 
 .conteiner-nav{
-    background-color: aqua;
+    background-color: #255EE9;
     padding: 20px;
 }
 
@@ -26,11 +26,11 @@ footer{
     padding: 50px 0px;
 }
 
-.giallo{
-    background-color: darkorange;
+.navig{
+    background-color: #255EE9;
 }
 
-.giallo ul{
+.navig ul{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -45,29 +45,46 @@ footer{
 
 .link-list-item{
     padding: 0px 0.5rem;
+    font-family: "Roboto";
 }
 
 .link-list-item a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-family: "Roboto";
+}
+
+.font{
+    font-family: "Roboto";
+}
+
+.solid-black{
+    font-weight:bolder
 }
 
 .giallo-element{
-    border: 1px dashed black;
     padding: 0.5em;
 }
 
 .centrale{
     width: 66%;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .laterale{
     width: 33%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .destro{
-    text-align: end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .background-color{
@@ -75,10 +92,8 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 50px 0px;
-}
-
-.blue{
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .blue-cube{
@@ -89,17 +104,15 @@ footer{
 }
 
 .pink-cube{
-    background-color: pink;
-    height: 600px;
     width: 33.3%;
     border: 1px dashed black;
-
 }
 
 .purple-cube{
-    height: 500px;
     width: 40%;
-    background-color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .green-cube{
@@ -144,5 +157,35 @@ footer{
     border: 1px dashed black;
 }
 
+.button-white{
+    background-color: white;
+    border-radius: 25px;
+    border: none;
+    color: black;
+    padding: 0.5rem 1rem
+}
 
+.button-gray{
+    background-color: darkgray;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem
+}
 
+h1{
+    margin: 80px 0px;
+    font-family: "Roboto";
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.purple-cube h4{
+    color: white;
+    text-align: center;
+    font-family: "Roboto";
+    width: 80%;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
